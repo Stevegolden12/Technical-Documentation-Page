@@ -7,6 +7,7 @@
   --codebkgnd-color: #DCDCDC;
 }
 
+/* index.html selectors */
 .index__linkCol h1 {
   text-align: center;
 }
@@ -38,10 +39,10 @@ header {
   color: var(--bodyfont-color);
 }
 
-  .nav-link:hover,
-  .nav-link:focus {
-    background-color: var(--hoverlink-color);
-  }
+.nav-link:hover,
+.nav-link:focus {
+  background-color: var(--hoverlink-color);
+}
 
 .nav-link:visited{
   color: var(--bodyfont-color);
@@ -59,6 +60,7 @@ code {
 
 /*Medium breakpoint 678px */
 @media(min-width: 678px) {
+  /* Changing the top nav as a sidebar with flex-direction */
   body {
     flex-direction: row;
   }
