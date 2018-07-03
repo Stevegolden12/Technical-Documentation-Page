@@ -59,7 +59,7 @@ code {
 }
 
 /*Medium breakpoint 678px */
-@media(min-width: 678px) {
+@media (min-width: 678px) {
   /* Changing the top nav as a sidebar with flex-direction */
   body {
     flex-direction: row;
