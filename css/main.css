@@ -8,15 +8,19 @@
 }
 
 /* index.html selectors */
-.index__linkCol h1 {
-  text-align: center;
-}
-
 body {
   display: flex;
   flex-direction: column;
   color: var(--bodyfont-color);
   font-family: 'Open Sans',Arial,sans-serif;
+}
+
+.index__navWrapper {
+  position: fixed;
+}
+
+.index__linkCol h1 {
+  text-align: center;
 }
 
 header {
